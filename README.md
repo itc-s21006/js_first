@@ -61,6 +61,10 @@
 - [JavaScript入門編2: 条件によって処理を変えてみよう](https://paiza.jp/works/js/primer/beginner-js2)
 - [条件分岐メニュー](https://paiza.jp/works/mondai/conditions_branch/problem_index?language_uid=javascript)
 
+#### 解答例
+
+- [条件分岐メニュー](./exercise/conditions_branch.md)
+
 #### references
 
 - 教科書(JavaScriptモダンプログラミングガイド) p30 - p44
