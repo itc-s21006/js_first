@@ -169,9 +169,9 @@ code .
 
 #### vscode plugin
 
-- [ctrl + P] -> ext install VisualStudioExptTeam.vscodeintellicode
-- [ctrl + P] -> ext install standard.vscode-standard
-- [ctrl + P] -> ext install capaj.vscode-standardjs-snippets
+- [ctrl + P] -> `ext install VisualStudioExptTeam.vscodeintellicode`
+- [ctrl + P] -> `ext install standard.vscode-standard`
+- [ctrl + P] -> `ext install capaj.vscode-standardjs-snippets`
 
 #### vscode snippets
 
