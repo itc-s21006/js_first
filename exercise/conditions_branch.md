@@ -78,7 +78,6 @@ const fun = (...args) => {
   return 15
 }
 
-
 ```
 
 関数的解法
@@ -141,7 +140,6 @@ const fun = (...args) => {
   return zip(A, B).filter(([a, b]) => a === b).length
 }
 ```
-Generatorを使用した例
 ### [終了判定](https://paiza.jp/works/mondai/conditions_branch/conditions_branch__complex_step4?language_uid=javascript)
 
 ```js
@@ -154,7 +152,9 @@ const fun = (...args) {
 }
 ```
 
-[終了判定 2](https://paiza.jp/works/mondai/conditions_branch/conditions_branch__complex_step5?language_uid=javascript)
+### [終了判定 2](https://paiza.jp/works/mondai/conditions_branch/conditions_branch__complex_step5?language_uid=javascript)
+
+Generatorを使用した例
 ```js
 const fun = (...args) => {
   const gen = function* (n, k) {
@@ -163,7 +163,6 @@ const fun = (...args) => {
   const [N, K] = split(args[0], toInt)
   const g = gen(N, K)
   return [...g].length
-
 }
 ```
 
