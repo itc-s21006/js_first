@@ -61,10 +61,6 @@
 - [JavaScript入門編2: 条件によって処理を変えてみよう](https://paiza.jp/works/js/primer/beginner-js2)
 - [条件分岐メニュー](https://paiza.jp/works/mondai/conditions_branch/problem_index?language_uid=javascript)
 
-#### 解答例
-
-- [条件分岐メニュー](./exercise/conditions_branch.md)
-
 #### references
 
 - 教科書(JavaScriptモダンプログラミングガイド) p30 - p44
@@ -132,12 +128,17 @@ JavaScriptの文字列と配列を学ぶ，もともと文字列とは文字の�
 
 #### 演習
 
+- [条件分岐メニュー](https://paiza.jp/works/mondai/conditions_branch/problem_index?language_uid=javascript)
 - [二重ループメニュー](https://paiza.jp/works/mondai/double_roop_problems/problem_index?language_uid=javascript)
 - [配列メニュー](https://paiza.jp/works/mondai/array_primer/problem_index?language_uid=javascript)
 - [配列活用メニュー](https://paiza.jp/works/mondai/array_utilization_primer/problem_index?language_uid=javascript)
 - [標準出力メニュー](https://paiza.jp/works/mondai/stdout_primer/problem_index?language_uid=javascript)
 - [Cランクレベルアップメニュー](https://paiza.jp/works/mondai/c_rank_level_up_problems/problem_index?language_uid=javascript)
 - [データセット選択メニュー](https://paiza.jp/works/mondai/data_structure/problem_index?language_uid=javascript) 
+
+### 演習解答例
+
+- [条件分岐メニュー](./exercise/conditions_branch.md)
 
 #### references
 
