@@ -4,7 +4,8 @@
     "prefix": "paiza",
     "body": [
       "// Global function",
-      "const getLines = () => require('fs').readFileSync('/dev/stdin').toString().trim().split('\\n')",
+			"const readLines = (file = '/dev/stdin') =>",
+			"  require('fs').readFileSync(file).toString().trim().split('\\n').map(v => v.trim())",
       "",
       "/**",
       " * identity 入力値をそのまま返す",

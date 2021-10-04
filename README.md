@@ -25,17 +25,24 @@
 
 #### references
 
-- 教科書(JavaScriptモダンプログラミングガイド) p2 - p15
+- p2 - p15 教科書(JavaScriptモダンプログラミングガイド) 
+- p15 - p31 教科書(基礎から学ぶ React/React Hooks)
 
 ### 2nd day
 
-- 配列と分割代入について軽く学ぶ
+- 配列と分割代入,関数について軽く学ぶ
 - Node環境上の外部からのデータ受け取りのプログラムを書いて実行する
 - 標準入力・算術・代入演算の演習を行う
 
 #### 学習コンテンツ
 
-- 教科書(JavaScriptモダンプログラミングガイド) p16 - p28
+- p16 - p28 教科書(JavaScriptモダンプログラミングガイド) 
+- p56 - p59, p71 教科書(JavaScriptモダンプログラミングガイド)
+- p32 - p35 教科書(基礎から学ぶ React/React Hooks)
+- p61 - p61 教科書(基礎から学ぶ React/React Hooks)
+
+#### 演習
+
 - [標準入力メニュー](https://paiza.jp/works/mondai/stdin_primer/problem_index?language_uid=javascript)
 - [標準入力サンプル問題セット](https://paiza.jp/works/mondai/stdin/problem_index?language_uid=javascript)
 - [算術・代入演算メニュー](https://paiza.jp/works/mondai/arithmetic_substitution_op/problem_index?language_uid=javascript)
@@ -63,7 +70,8 @@
 
 #### references
 
-- 教科書(JavaScriptモダンプログラミングガイド) p30 - p44
+- p30 - p44 教科書(JavaScriptモダンプログラミングガイド)
+- p39 - p39 教科書(基礎から学ぶ React/React Hooks)
 
 ### 4th day
 
@@ -85,7 +93,9 @@ for-of文とmap/Array.from関数が後々重要になるので基礎的なLoop�
 
 #### references
 
-- 教科書(JavaScriptモダンプログラミングガイド) p44 - p51
+- p44 - p51 教科書(JavaScriptモダンプログラミングガイド) 
+- p42 - p46 教科書(基礎から学ぶ React/React Hooks)
+
 
 ### 5th day
 
@@ -112,7 +122,9 @@ JavaScriptの文字列と配列を学ぶ，もともと文字列とは文字の�
 - [JavaScript入門編4: 配列の基礎](https://paiza.jp/works/js/primer/beginner-js4)
 - [文字列処理メニュー](https://paiza.jp/works/mondai/string_primer/problem_index?language_uid=javascript)
 - p130 - p135 教科書(JavaScriptモダンプログラミングガイド 第6章 文字列) 
-- p159 - p177 教科書(JavaScriptモダンプログラミングガイド 第7章 配列) 
+- p159 - p177 教科書(JavaScriptモダンプログラミングガイド 第7章 配列)
+- p47 - p61 教科書(基礎から学ぶ React/React Hooks)
+ 
 
 #### 演習
 
@@ -159,20 +171,18 @@ sudo apt purge nodejs npm
 sudo apt autoremove
 ```
 
-### standard
+### standardjs
 
 ```sh
 sudo npm install -g standard
 ```
 
-### vscode
+### vscode & plugin
 
 ```sh
 sudo apt install vscode
 code .
 ```
-
-#### vscode plugin
 
 - [ctrl + P] -> `ext install VisualStudioExptTeam.vscodeintellicode`
 - [ctrl + P] -> `ext install standard.vscode-standard`

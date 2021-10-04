@@ -14,6 +14,7 @@ const readLines = (file = '/dev/stdin') =>
 const identity = value => value
 const join = sep => list => list.join(sep)
 const split = (sep, fun = identity) => iter => Array.from(iter.split(sep), fun)
+const slice = (begin, end) => iter => end === undefined ? iter.slice(begin) : iter.slice(begin, end)
 const toInt = s => parseInt(s, 10)
 const toStr = n => n.toString()
 const toList = fun => iter => Array.from(iter, fun)
@@ -37,9 +38,10 @@ print(identity)(fun(...lines))  // use join('\n') or join(' ') or identity in th
 | identity(value)            | 入力値をそのまま返す                          |
 | join(sep)(list)            | 配列をsepで結合する                           |
 | split(sep, [fun])(iter)    | イテレータをsepで分割[fun]を適応して返す      |
+| slice(begin, [end])(iter)  | イテレータをスライスして返す                  |
 | toInt(s)                   | 文字数字を整数に変換                          |
 | toStr(n)                   | 数値を文字数字に変換                          |
-| toList(fun)(iter)          | イテレータに関数適用し配列を返す              |
+| toList(fun)(iter)          | イテレータを関数適用し配列を返す              |
 | print(fun)(value)          | valueに関数適用し表示する                     |
 
 
@@ -167,19 +169,6 @@ output
 abc
 ```
 
-#### 戻り値が複数行(配列)を改行して出力
-
-code
-```js
-print(join('\n'))([1, 2, 3])
-```
-
-output
-```js
-1
-2
-3
-```
 #### 戻り値が複数行(配列)を改行して出力
 
 code
